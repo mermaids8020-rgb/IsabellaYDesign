@@ -1,0 +1,155 @@
+
+@media only screen and (max-width: 700px) {
+ nav{
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 1fr;
+ }
+}
+
+
+/* -------Index-------*/
+
+ a {
+ text-decoration: none;
+ text-transform: uppercase;
+ border-radius: 5px;
+ padding: 20px 20px 20px 20px;
+ color: #dde8f4;
+}
+
+nav ul{
+ list-style-type: none;
+ text-align: center;
+ background-color:#151453;
+}
+
+nav ul li {
+display: inline-block;
+padding: 20px;
+}
+
+nav {
+margin-top: 10px;
+box-shadow: 0px 2px 5px rgb(92, 98, 142);
+}
+
+a:hover, .active {
+background-color: rgb(113, 118, 208);
+color: rgb(188, 200, 242);
+box-shadow: 0px 7px 5px rgb(10, 5, 45);
+text-decoration: underline;
+}
+
+header{
+background-image: url(thumbnail_IMG_1094.jpg);
+background-repeat: no-repeat;
+background-position: left;
+background-size:contain;
+background-color: #151453;
+padding-left: 250px;
+}
+
+body {
+    background-color: #82abdb;
+}
+
+#margin {
+ border: 2px;
+ margin: 50px;
+}
+
+#padding {
+    border: 2px;
+    padding: 50px;
+    border-style:double;
+    border-color: #151453;
+}
+
+h1,h2,h3,h4,p {
+color: #dde8f4;
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* ------Projects------- */
+
+.container {
+ height: 400px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.photo{
+    margin: 20px;
+    width: 500px;
+}
+
+.photo img{
+    width: 600px;
+    height: 500px;
+}
+
+/*-------About--------*/
+
+#aboutme .container {
+ display: grid;
+ grid-template-columns: 1fr 2fr 2fr 1fr;
+ gap: 40px;
+ padding-bottom: 40px;
+}
+
+
+#aboutme .image {
+ width: 100px;
+ height: 200px;
+ grid-column: 1/ 2;
+}
+
+#aboutme .paragraph {
+ width: 400px;
+ margin: 20px;
+ grid-column: 2/ -1;
+}
+
+/*-------contact me--------*/
+
+#contact .box {
+background-color: #151453;
+width: 300px;
+height: 200px;
+padding-top: 50px;
+margin-top: 100px;
+}
+
+/*---Resume---*/
+#resume .text{   
+ text-shadow: #151453;
+ text-align: center;
+ padding-bottom: 500px;
+ padding-top: 100px;
+}
